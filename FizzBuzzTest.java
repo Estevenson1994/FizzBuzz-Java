@@ -16,6 +16,11 @@ public class FizzBuzzTest {
         test3Result = isEqual(test3Input, expectedResult3);
         System.out.println(test3Result);
 
+
+        String test4Input = fizzBuzz.convert(15), expectedResult4 = "FizzBuzz", test4Result;
+        test4Result = isEqual(test4Input, expectedResult4);
+        System.out.println(test4Result);
+
     }
 
     public static String isEqual(String fizzBuzzOutput, String expectedResult) {
