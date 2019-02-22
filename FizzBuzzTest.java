@@ -3,9 +3,13 @@ public class FizzBuzzTest {
 
         FizzBuzzConverter fizzBuzz = new FizzBuzzConverter();
 
-        String test1Input = fizzBuzz.convert(1), expectedResult = "1", test1Result;
-        test1Result = isEqual(test1Input, expectedResult);
+        String test1Input = fizzBuzz.convert(1), expectedResult1 = "1", test1Result;
+        test1Result = isEqual(test1Input, expectedResult1);
         System.out.println(test1Result);
+
+        String test2Input = fizzBuzz.convert(3), expectedResult2 = "Fizz", test2Result;
+        test2Result = isEqual(test2Input, expectedResult2);
+        System.out.println(test2Result);
     
 
 
