@@ -1,4 +1,4 @@
-## FizzBuzz in Java
+# FizzBuzz in Java
 
 This is my attempt at learning a new langauge and then test driving a basic fizzbuzz program.
 
@@ -6,7 +6,7 @@ Since this week I was learning how to write a testing framework from scratch, I 
 
 You can find my basic tests in `FizzBuzzTest.java` and my implementation in `FizzBuzzConverter.java`.
 
-# Set Instructions
+### Setup Instructions
 
 These instructions are assuming you have java installed:
 
