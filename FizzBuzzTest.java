@@ -12,6 +12,9 @@ public class FizzBuzzTest {
         System.out.println(test2Result);
     
 
+        String test3Input = fizzBuzz.convert(5), expectedResult3 = "Buzz", test3Result;
+        test3Result = isEqual(test3Input, expectedResult3);
+        System.out.println(test3Result);
 
     }
 
