@@ -1,15 +1,9 @@
 public class FizzBuzzConverter {
     public String convert(int number) {
-        if(number%15==0) {
-            return "FizzBuzz";
-        }
-        if(number%3==0) {
-            return "Fizz";
-        }
-        if(number%5==0) {
-            return "Buzz";
-        }
-        return String.valueOf(number);
+        String result = "";
+        result += ((number % 3 == 0) ? "Fizz" : "");
+        result += ((number % 5 == 0) ? "Buzz" : "");
+        result = ((result.equals("")) ? String.valueOf(number) : result);
+        return result;
     }
 }
-
